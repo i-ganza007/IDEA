@@ -1,0 +1,43 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/strings"
+    },
+    {
+      "path": "./packages/colors"
+    },
+    {
+      "path": "./packages/async"
+    },
+    {
+      "path": "./packages/utils"
+    },
+    {
+      "path": "./api-e2e"
+    },
+    {
+      "path": "./api"
+    },
+    {
+      "path": "./users-e2e"
+    },
+    {
+      "path": "./users"
+    },
+    {
+      "path": "./reports-e2e"
+    },
+    {
+      "path": "./reports"
+    },
+    {
+      "path": "./intervention-e2e"
+    },
+    {
+      "path": "./intervention"
+    }
+  ]
+}
